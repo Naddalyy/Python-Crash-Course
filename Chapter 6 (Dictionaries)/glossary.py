@@ -19,6 +19,11 @@ glossary = {
     'default values in functions': 'can be assigned for parameters, so argument in function call can be excluded',
     'return values': 'takes a value inside a function and sends it back',
     'slice notation [:]': 'makes a copy of a list',
+    '*args': 'generic parameter name, which collects arbitrary postional arguments',
+    '**kwargs': 'parameter name, used to collect nonspecific keyword arguments',
+    'import statement': 'makes code from a module available in the current program file',
+    
+
     }
 
 print("Glossary:")
