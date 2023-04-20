@@ -17,7 +17,8 @@ glossary = {
     'positional arguments': 'need to be in the same order as the parameters',
     'keyword arguments': 'each argument consists of a name-value pair',
     'default values in functions': 'can be assigned for parameters, so argument in function call can be excluded',
-    'return values': 'takes a value inside a function and sends it back'
+    'return values': 'takes a value inside a function and sends it back',
+    'slice notation [:]': 'makes a copy of a list',
     }
 
 print("Glossary:")
