@@ -24,13 +24,13 @@ class Restaurant:
 
 # Creating a child class that inherits from the Restaurant class
 class IceCreamStand(Restaurant):
-    def __init__(self, restaurant_name, cuisine_type):
+    def __init__(self, restaurant_name, cuisine_type='ice cream'):
         """
         Initialize attributes of the parent class.
         Then initialize attributes specific to an ice cream stand.
         """
         super().__init__(restaurant_name, cuisine_type)
-        self.flavors = ["strawberry", "raspberry", "chocolate"]
+        self.flavors = []
 
     def display_flavors(self):
         """Prints the different ice cream flavors."""
@@ -38,5 +38,6 @@ class IceCreamStand(Restaurant):
         for flavor in self.flavors:
             print(f"- {flavor}")
 
-icecreamstand = IceCreamStand("Eis-Café Venezia", "italian")
+icecreamstand = IceCreamStand("Eis-Café Venezia")
+icecreamstand.flavors = ["strawberry", "raspberry", "chocolate"]
 icecreamstand.display_flavors()
