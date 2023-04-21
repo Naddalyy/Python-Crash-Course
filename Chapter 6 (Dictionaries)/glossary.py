@@ -22,8 +22,9 @@ glossary = {
     '*args': 'generic parameter name, which collects arbitrary postional arguments',
     '**kwargs': 'parameter name, used to collect nonspecific keyword arguments',
     'import statement': 'makes code from a module available in the current program file',
-    
-
+    'instance': 'object of a class',
+    'instantiation': 'making an object from a class',
+    'method': 'function that is part of a class',
     }
 
 print("Glossary:")
