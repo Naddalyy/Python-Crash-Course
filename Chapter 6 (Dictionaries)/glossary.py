@@ -25,6 +25,11 @@ glossary = {
     'instance': 'object of a class',
     'instantiation': 'making an object from a class',
     'method': 'function that is part of a class',
+    'inheritance': 'taking on attributes and methods of another class',
+    'child class': 'inherits anything or all from parent class, but is free to define new attributes/methods',
+    'super() function': 'special function that allows to call methods from a parent class',
+    'composition': 'breaking a large class into several smaller classes that work together',
+
     }
 
 print("Glossary:")
